@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="javascris/operação.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="cnum1"><P><b>Digita Um Numero</b></P>
+            <input type="number" id="cnume1">
+        </div>
+        <div class="cnum2"><p><b>Digita Um Numero</b></p>
+            <input type="number" id="cnume2">
+        </div>
+        <div class="operacoes"  >
+            <button onclick="realizaroperacao('+')">Soma(+)</button>
+            <button onclick="realizaroperacao('-')">Subtraçao(-)</button>
+            <button onclick="realizaroperacao('*')">Multiplicar(*)</button>
+            <button onclick="realizaroperacao('/')">Divisao(/)</button>
+        </div>
+        <div class="resultado" id="resultado">
+            resultado
+        </div>
+    </div>
+</body>
+</html>
